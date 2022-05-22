@@ -1,0 +1,67 @@
+html, body {
+    /* Sets the background as the background from the images folder. It's adjusted to fill the entire screen. 
+    I chose to import a free use western font, modified free use 8 bit cowboys, and made the background myself to add a wild western style */
+        
+        background-image: url("images/Background.png");
+        background-size: cover;
+        height: 100%;
+        padding: 0;
+        margin: 0;
+        overflow: hidden;
+        font-family: "Tanomuze Cowboy";
+        text-align: center;
+    }
+    
+    /*Gives the canvas a border */
+    canvas {
+        border: 5px solid black;
+    }
+    
+    /*Added some size and font changes to certain lines to add contrast */
+    h1 {
+        font-size: 50px;
+    }
+    
+    h2 {
+        font-size: 25px;
+        color: grey
+    }
+    
+    /* Added box styling for the control descriptions and center message */
+    #p1c {
+        width: 300px;
+        border: 5px solid black;
+        padding: 10px;
+        background-color: sandybrown;
+        font-family: 'Times New Roman';
+        box-sizing: border-box;
+        position: fixed;
+        top: 75%;
+        left: 15%;
+    }
+
+    #cm {
+        width:300px;
+        border:5px solid black;
+        padding:10px;
+        background-color: sandybrown;
+        font-family: 'Tanomuze Cowboy';
+        box-sizing: border-box;
+        position: fixed;
+        top: 75%;
+        left: 50%;
+        margin-left: -150px;
+        
+    }
+
+    #p2c {
+        width:300px;
+        border:5px solid black;
+        padding:10px;
+        background-color: sandybrown;
+        font-family: 'Times New Roman';
+        box-sizing: border-box;
+        position: fixed;
+        top: 75%;
+        right: 15%;
+    }
